@@ -6,8 +6,8 @@ import '../styles/BookMoviePage.css'
 const BookMoviePage = () => {
  
     const [movie,setMovie] = useState({})
-    const [name,setName] = useState("")
-    const [language,setLanguage] = useState("")
+    const [,setName] = useState("")
+    const [,setLanguage] = useState("")
     
 
 const params = useParams()
